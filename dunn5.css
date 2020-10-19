@@ -1,0 +1,132 @@
+/*William Dunn
+Assignment 5
+280 01
+2/17/17*/
+
+* { box-sizing: border-box; }
+	
+ #wrapper 
+ {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #9d89ae;
+	min-width: 960px;
+	max-width: 1200px;
+	border: solid;
+	border-color:#11092D;
+ }
+   
+ body
+ {
+	font-family:Verdana, Arial, sans-serif;
+	background-color: #2B034D;
+ }
+ 
+ nav
+ {
+	float: right;
+	width: 100px;
+	margin-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 30px;
+	text-align: right;
+ }
+ 
+ main
+ {
+	margin-left: 50px;
+	
+ }
+ 
+ nav ul
+ {
+	list-style-type: none;
+	margin-left: 0;
+	padding: 10px;
+ }
+ 
+ nav a
+ {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: .9em;
+ }
+ 
+ nav a:link { color: #ECFEFE; background-color: #9d79ae;}
+ 
+ nav a:visited { color: #11092D; background-color: #9d79ae;}
+
+ nav a:hover { color: #DC4FDA; background-color: #9d79ae;}	
+ 
+ dl
+ {
+	width: 85%;
+ }
+ 
+ dt
+ {
+	font-weight: bold;
+	color: #11092D;
+ }
+ 
+ dd
+ {
+	color: #11092D;
+ }
+ 
+ p
+ {
+	width: 85%;
+	color: #11092D;
+ }
+ 
+ footer
+ {
+	font-size:70%;
+    text-align: center;
+	clear: right;
+    padding: 20px;
+	background-color: #11092D; 
+	color: #DC4FDA;
+ }
+ 
+ header
+ {
+	padding: 5px;
+	text-align: center;
+	background-color: #11092D;
+	color: #DC4FDA;
+	padding: 5px;
+}
+ 
+ h2
+ {
+	color: #11092D;
+ }
+ 
+ ul
+ {
+	list-style-type:none;
+ }
+ 
+.image
+ {
+	float:right;
+	padding-right: 15px;
+ }
+ 
+ .image li
+ {
+ 	display: inline-block;
+	width: 250px;
+	margin: 10px;
+	padding-bottom: 10px;
+	background-color: #11092D;
+	color: #DC4FDA;
+	text-align: center;
+	font-style: italic;
+	font-size: .9em;
+	font-family: Georgia,serif;
+ }
